@@ -1,0 +1,202 @@
+<html><head>
+    <title>Sign in to your account</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+    <link href="favicon.ico" rel="SHORTCUT ICON"/>
+    <style type="text/css">
+    html {
+        font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto";
+        background-color: #fff;
+        background-image: url("bg.svg");
+        background-size: 100% 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .outer {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .logo {
+        max-width: 256px;
+        height: 24px;
+    }
+    .key {
+        width: 32px;
+        height: 32px;
+    }
+        input[type=password],input[type=email] {
+    width: 100%;
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.6);
+    outline: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+    height: 36px;
+    font-size: 15px;
+    }
+    .inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px 44px 4px 44px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden;
+}
+.options {
+    width: calc(100% - 40px);
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    padding-left: 44px;
+    padding-right: 44px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+.options:hover{background-color: #E5E5E5;}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    line-height: 1.75rem;
+    padding-bottom: 2.3632px;
+    padding-top: 2.3632px;
+    color: #1b1b1b;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+p{font-size: .8125rem;}
+a:link {color: #0067b8; text-decoration: none;}
+
+.options-txt {padding-left: 5px;}
+
+input[type=submit] {
+    background-color: #0067b8;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+}
+input[type=button] {
+    background-color: rgb(204, 204, 204);
+    border: none;
+    color: black;
+    padding: 10px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    float: right;
+}
+input[type=button]:hover,input[type=submit]:hover{background-image: linear-gradient(rgb(0 0 0/10%) 0 0);}
+
+@media (max-width: 600px), (max-height: 366px){
+    html {background-image:none;}
+    .inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden;
+}
+.options {
+    width: calc(100% - 40px);
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 0px 1px 1px rgba(0,0,0,0.2);
+    padding-left: 10px;
+    padding-right: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.outer {
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translate(-50%, -5%);
+    }
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="outer">
+        <div class="inner">
+            <img src="ms_logo.svg" class="logo" /><br />
+
+            <h2>Sign in</h2>
+            <br>
+            <form action="#">
+                <input type="email" id="email" name="email" placeholder="Email"><br><br>
+                <input type="password" id="password" name="password" placeholder="Password"><br><br>
+
+                <p>No account? <a href="#">Create one!</a></p>
+    
+                <p><a href="#">Can't access your account?</a></p>
+                <input type="submit" value="Next">
+                <input type="button" value="Back">
+
+              </form>
+        </div>
+        <div class="options">
+            <div class="options-img">
+                <img src="key_logo.svg" class="key" />
+              </div>
+              <div class="options-txt">
+                Sign-in options
+              </div>
+        </div>
+
+
+
+      </div>
+
+</body></html>
